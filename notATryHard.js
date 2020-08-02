@@ -77,11 +77,6 @@ gridBottom.appendChild(gridBottom2);
 gridBottom.appendChild(gridBottom3);
 gridBottom.appendChild(gridBottom4);
 
-/*
-gridTop.textContent = 'This is the glorious text-content!';
-gridTop.style.cssText = "background-color: lightgray"
-*/
-
 // appending main 4 sections to 16 / 16 grid
 container.appendChild(gridTop);
 container.appendChild(gridUpperMid);
