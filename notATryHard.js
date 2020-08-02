@@ -2,83 +2,75 @@
 const container = document.querySelector('#container');
 
 
-// creating 4 main sections for 16 / 16 
-const gridTop = document.createElement('div');
-gridTop.classList.add('grid-top');
-
-const gridUpperMid = document.createElement('div');
-gridUpperMid.classList.add('grid-upper-mid');
-
-const gridLowerMid = document.createElement('div');
-gridLowerMid.classList.add('gird-lower-mid');
-
-const gridBottom = document.createElement('div');
-gridBottom.classList.add('grid-bottom');
-
-
 // creating row for "grid-top"
 const gridTop1 = document.createElement('div');
-gridTop1.classList.add('grid-top-1');
+gridTop1.classList.add('grid-1');
+gridTop1.classList.add('top');
 const gridTop2 = document.createElement('div');
-gridTop2.classList.add('grid-top-2');
+gridTop2.classList.add('grid-2');
+gridTop2.classList.add('top');
 const gridTop3 = document.createElement('div');
-gridTop3.classList.add('grid-top-3');
+gridTop3.classList.add('grid-3');
+gridTop3.classList.add('top');
 const gridTop4 = document.createElement('div');
-gridTop4.classList.add('grid-top-4');
+gridTop4.classList.add('grid-4');
+gridTop4.classList.add('top');
 
-// creating row for "grid-upper-mid"
-const gridUpperMid1 = document.createElement('div');
-gridUpperMid1.classList.add('grid-upper-mid-1');
-const gridUpperMid2 = document.createElement('div');
-gridUpperMid2.classList.add('grid-upper-mid-2');
-const gridUpperMid3 = document.createElement('div');
-gridUpperMid3.classList.add('grid-upper-mid-3');
-const gridUpperMid4 = document.createElement('div');
-gridUpperMid4.classList.add('grid-upper-mid-4');
+const gridMid1 = document.createElement('div');
+gridMid1.classList.add('grid-5');
+gridMid1.classList.add('upper-mid');
+const gridMid2 = document.createElement('div');
+gridMid2.classList.add('grid-6');
+gridMid2.classList.add('upper-mid');
+const gridMid3 = document.createElement('div');
+gridMid3.classList.add('grid-7');
+gridMid3.classList.add('upper-mid');
+const gridMid4 = document.createElement('div');
+gridMid4.classList.add('grid-8');
+gridMid4.classList.add('upper-mid');
 
-// creating row for "grid-lower-mid"
-const gridLowerMid1 = document.createElement('div');
-gridLowerMid1.classList.add('gird-lower-mid-1');
-const gridLowerMid2 = document.createElement('div');
-gridLowerMid2.classList.add('gird-lower-mid-2');
-const gridLowerMid3 = document.createElement('div');
-gridLowerMid3.classList.add('gird-lower-mid-3');
-const gridLowerMid4 = document.createElement('div');
-gridLowerMid4.classList.add('gird-lower-mid-4');
+const gridMid5 = document.createElement('div');
+gridMid5.classList.add('grid-9');
+gridMid5.classList.add('lower-mid');
+const gridMid6 = document.createElement('div');
+gridMid6.classList.add('grid-10');
+gridMid6.classList.add('lower-mid');
+const gridMid7 = document.createElement('div');
+gridMid7.classList.add('grid-11');
+gridMid7.classList.add('lower-mid');
+const gridMid8 = document.createElement('div');
+gridMid8.classList.add('grid-12');
+gridMid8.classList.add('lower-mid');
 
-// creating row for "grid-bottom"
 const gridBottom1 = document.createElement('div');
-gridBottom1.classList.add('grid-bottom-1');
+gridBottom1.classList.add('grid-13');
+gridBottom1.classList.add('bottom');
 const gridBottom2 = document.createElement('div');
-gridBottom2.classList.add('grid-bottom-2');
+gridBottom2.classList.add('grid-14');
+gridBottom2.classList.add('bottom');
 const gridBottom3 = document.createElement('div');
-gridBottom3.classList.add('grid-bottom-3');
+gridBottom3.classList.add('grid-15');
+gridBottom3.classList.add('bottom');
 const gridBottom4 = document.createElement('div');
-gridBottom4.classList.add('grid-bottom-4');
+gridBottom4.classList.add('grid-16');
+gridBottom4.classList.add('bottom');
 
-// adding all rows to top, mid and bottom
-gridTop.appendChild(gridTop1);
-gridTop.appendChild(gridTop2);
-gridTop.appendChild(gridTop3);
-gridTop.appendChild(gridTop4);
+// appending all sections to 16 / 16 grid
+container.appendChild(gridTop1);
+container.appendChild(gridTop2);
+container.appendChild(gridTop3);
+container.appendChild(gridTop4);
+container.appendChild(gridMid1);
+container.appendChild(gridMid2);
+container.appendChild(gridMid3);
+container.appendChild(gridMid4);
+container.appendChild(gridMid5);
+container.appendChild(gridMid6);
+container.appendChild(gridMid7);
+container.appendChild(gridMid8);
+container.appendChild(gridBottom1);
+container.appendChild(gridBottom2);
+container.appendChild(gridBottom3);
+container.appendChild(gridBottom4);
 
-gridUpperMid.appendChild(gridUpperMid1);
-gridUpperMid.appendChild(gridUpperMid2);
-gridUpperMid.appendChild(gridUpperMid3);
-gridUpperMid.appendChild(gridUpperMid4);
-
-gridLowerMid.appendChild(gridLowerMid1);
-gridLowerMid.appendChild(gridLowerMid2);
-gridLowerMid.appendChild(gridLowerMid3);
-gridLowerMid.appendChild(gridLowerMid4);
-
-gridBottom.appendChild(gridBottom1);
-gridBottom.appendChild(gridBottom2);
-gridBottom.appendChild(gridBottom3);
-gridBottom.appendChild(gridBottom4);
-
-// appending main 4 sections to 16 / 16 grid
-container.appendChild(gridTop);
-container.appendChild(gridUpperMid);
-container.appendChild(gridLowerMid);
-container.appendChild(gridBottom);
+// creating pen effect now
