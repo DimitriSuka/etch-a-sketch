@@ -74,3 +74,84 @@ container.appendChild(gridBottom3);
 container.appendChild(gridBottom4);
 
 // creating pen effect now
+const grid1 = document.querySelector('.grid-1');
+const grid2 = document.querySelector('.grid-2');
+const grid3 = document.querySelector('.grid-3');
+const grid4 = document.querySelector('.grid-4');
+const grid5 = document.querySelector('.grid-5');
+const grid6 = document.querySelector('.grid-6');
+const grid7 = document.querySelector('.grid-7');
+const grid8 = document.querySelector('.grid-8');
+const grid9 = document.querySelector('.grid-9');
+const grid10 = document.querySelector('.grid-10');
+const grid11 = document.querySelector('.grid-11');
+const grid12 = document.querySelector('.grid-12');
+const grid13 = document.querySelector('.grid-13');
+const grid14 = document.querySelector('.grid-14');
+const grid15 = document.querySelector('.grid-15');
+const grid16 = document.querySelector('.grid-16');
+
+grid1.addEventListener('mouseover', () => {
+    grid1.style.cssText = "background-color: white";
+});
+
+grid2.addEventListener('mouseover', () => {
+    grid2.style.cssText = "background-color: white";
+});
+
+grid3.addEventListener('mouseover', () => {
+    grid3.style.cssText = "background-color: white";
+});
+
+grid4.addEventListener('mouseover', () => {
+    grid4.style.cssText = "background-color: white";
+});
+
+grid5.addEventListener('mouseover', () => {
+    grid5.style.cssText = "background-color: white";
+});
+
+grid6.addEventListener('mouseover', () => {
+    grid6.style.cssText = "background-color: white";
+});
+
+grid7.addEventListener('mouseover', () => {
+    grid7.style.cssText = "background-color: white";
+});
+
+grid8.addEventListener('mouseover', () => {
+    grid8.style.cssText = "background-color: white";
+});
+
+grid9.addEventListener('mouseover', () => {
+    grid9.style.cssText = "background-color: white";
+});
+
+grid10.addEventListener('mouseover', () => {
+    grid10.style.cssText = "background-color: white";
+});
+
+grid11.addEventListener('mouseover', () => {
+    grid11.style.cssText = "background-color: white";
+});
+
+grid12.addEventListener('mouseover', () => {
+    grid12.style.cssText = "background-color: white";
+});
+
+grid13.addEventListener('mouseover', () => {
+    grid13.style.cssText = "background-color: white";
+});
+
+grid14.addEventListener('mouseover', () => {
+    grid14.style.cssText = "background-color: white";
+});
+
+grid15.addEventListener('mouseover', () => {
+    grid15.style.cssText = "background-color: white";
+});
+
+grid16.addEventListener('mouseover', () => {
+    grid16.style.cssText = "background-color: white";
+});
+
